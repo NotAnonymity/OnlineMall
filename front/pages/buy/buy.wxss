@@ -1,0 +1,30 @@
+page{
+  background-color: #343337;
+  color:rgb(223,177,60);
+}
+.balance{
+  font-size: 70rpx;
+  color: #1cddb1;
+}
+
+.buy{
+  margin-top:100rpx;
+  font-size:40rpx;
+  padding-left: 30rpx;
+}
+.input{
+  margin-top:200rpx;
+  font-size:100rpx;
+  height:110rpx;
+  /* padding-left: 30rpx;
+  padding-right: 30rpx; */
+  text-align: center;
+  color: #1cddb1;
+}
+.buy-button{
+  margin-top:300rpx;
+  margin-left:100rpx;
+  margin-right:100rpx;
+  background-color: rgb(223,177,60);
+  border-radius: 300rpx;
+}

@@ -1,0 +1,24 @@
+/* pages/change-info/change-info.wxss */
+page{
+  background-color: #343337;
+}
+
+.text{
+  font-size:50rpx;
+  color:rgb(223,177,60);
+  letter-spacing:2rpx;
+  margin-top:300rpx;
+  margin-left: 50rpx;
+  margin-right: 30rpx;
+  line-height:80rpx;   
+}
+
+.button{
+  font-size: 40rpx;
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:100rpx;
+  background-color:rgb(223,177,60);
+  color:black;
+  border-radius: 300rpx;
+}

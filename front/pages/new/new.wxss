@@ -1,0 +1,23 @@
+page {
+  /* display: flex; */
+  background-color:rgb(52,51,55);
+  /* height: 100vh; */
+  /* flex-direction: column;
+  align-items: center; */
+  font-size:50rpx;
+  color:rgb(223,177,60);
+  letter-spacing:2rpx;
+  margin-top:300rpx;
+  margin-left: 50rpx;
+  margin-right: 30rpx;
+  line-height:80rpx;   
+}
+.next {
+  margin-top:300rpx; 
+  margin-right: 50rpx;
+  margin-left:250rpx;
+  width:150rpx;
+  height:150rpx;
+  overflow:hidden; 
+
+}

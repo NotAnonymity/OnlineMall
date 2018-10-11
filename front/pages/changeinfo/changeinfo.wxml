@@ -1,0 +1,21 @@
+<view class='input-list'>
+
+  <view class='student'>
+    <image class='a' src='../img/student.png'></image>
+    <input class='d' type='number' bindinput='getId' placeholder='学号:' maxlength='13' auto-focus='true'></input>
+  </view>
+  <!-- <view class='name'>
+    <image class='b' src='../img/name.png'></image>
+    <input class='e' type='text'bindinput="getName" placeholder='姓名:' maxlength='10'></input>
+  </view> -->
+  <view class='phone'>
+    <image class='c' src='../img/phone.png'></image>
+    <input class='f' type='number' bindinput='getPhone' placeholder='电话:' maxlength='11'></input>
+  </view>
+  <view class='pwd'>
+   <image class='pw' src='../img/pw.png'></image>
+  <input class='p' type='newPwd' bindinput='getNewPwd' password='true' placeholder='设置新密码:{{}}'
+  maxlength='4' ></input>
+  </view>
+</view>
+<button bindtap='confirm' class='confirm'>验证并修改</button>

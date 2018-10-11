@@ -1,0 +1,8 @@
+<view class='page'>
+  <view class='inst'>
+    <view>四川大学校内无人超市</view>
+    <view>新用户注册仅需2步</view>
+  </view>
+
+  <image class='next' bindtap='next' src='../img/next.png'></image>
+</view>

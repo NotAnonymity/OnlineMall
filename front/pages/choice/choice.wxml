@@ -1,0 +1,9 @@
+<view class='text'>
+  <view >免费领取VIP磁卡</view>
+  <view>支付更快捷 享专属折扣</view>
+ 
+</view>
+
+ <button class="button" bindtap='next'>立即领取</button>
+ <image class='no' bindtap='no' src='../img/no.png'></image>
+ <view class="no-card" bindtap='no'>不用了</view>

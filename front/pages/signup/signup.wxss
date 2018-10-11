@@ -1,0 +1,84 @@
+/* pages/change-info/change-info.wxss */
+page{
+  background-color: #343337;
+  color:white;
+}
+
+.student{
+  font-size: 50rpx;
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:60rpx;
+  color:#1cddb1;
+}
+
+.name{
+  font-size:50rpx; 
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:60rpx;
+  color:#1cddb1;
+}
+
+.phone{
+  font-size:50rpx;   
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:60rpx;
+  color:#1cddb1;
+}
+.pwd{
+  font-size:50rpx;   
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:60rpx;
+  color:#1cddb1;
+}
+.checkpwd{
+  font-size:50rpx;   
+  /* height:200rpx; */
+  /* width:80%; */
+  margin:60rpx;
+  color:#1cddb1;
+}
+.confirm{
+  background-color: rgb(223,177,60);
+  margin:180rpx;
+  margin-top:100rpx;
+  border-radius: 30px;
+}
+.a{
+  height:50rpx;
+  width:50rpx;
+}
+.b{
+  height:50rpx;
+  width:50rpx;
+}
+.c{
+  height:50rpx;
+  width:50rpx;
+}
+.d{
+  height:60rpx;
+}
+.e{
+  height:60rpx;
+}
+.f{
+  height:60rpx;
+}
+.x{
+  height:50rpx;
+  width:50rpx;
+}
+.y{
+  height:60rpx;
+}
+.x2{
+  height:50rpx;
+  width:50rpx;
+}
+.y2{
+  height:60rpx;
+}

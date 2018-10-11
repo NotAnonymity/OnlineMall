@@ -1,0 +1,28 @@
+page{
+  background-color: #343337;
+  color:white;
+}
+
+.button{
+  background-color: rgb(223,177,60);
+  margin:100rpx;
+  border-radius: 30px;
+  /* font-weight: bold; */
+}
+.text{
+  letter-spacing: 2rpx;
+  line-height: 80rpx;
+  font-size:50rpx;
+  margin-left:50rpx;
+  margin-top:310rpx;
+  color:rgb(223,177,60);
+}
+.no{
+  height:100rpx;
+  width:100rpx;
+  margin-left:80%;
+}
+.no-card{
+  color:white;
+  margin-left:80%
+}

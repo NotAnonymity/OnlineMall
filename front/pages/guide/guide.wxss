@@ -1,0 +1,39 @@
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+.alipay{
+  /* border: 3px solid white; 
+  border-radius: 2px;   */
+  height:100rpx;
+  width:200rpx;
+  margin:50rpx;
+}
+.vip{
+  border: 2px solid #70bcf6; 
+  border-radius: 2px;  
+  height:100rpx;
+  width:100rpx;
+  margin:50rpx;
+  /* margin-top:100px; */
+}
+.wxpay{
+  border: 2px solid #70bcf6; 
+  border-radius: 2px;  
+  height:100rpx;
+  width:100rpx;
+  margin:50rpx;
+  /* padding:30rpx; */
+}
+.text1{
+  margin:40rpx;
+  margin-top:180rpx;
+  font-size: 40rpx;
+  letter-spacing: 5rpx;
+  
+}
+.text2{
+  margin:30rpx;
+  font-size:40rpx;
+  letter-spacing: 5rpx;
+}

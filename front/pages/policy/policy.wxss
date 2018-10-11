@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  flex-direction: row;
+}
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+.label {
+  padding: 5rpx;
+  width: 10%;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label_text {
+  border: #1cddb1 solid 3rpx;
+  padding: 3rpx;
+  color: #1cddb1;
+  font-size: 25rpx;
+}
+
+.content {
+  width: 80%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  letter-spacing: 3rpx;
+  /* align-items: center; */
+}
+
+.title{
+  font-size: 110%;
+  color: #1cddb1;
+  /* font-weight: bold; */
+  /* text-align: center;   */
+}
+
+.time{
+  font-size: 80%;
+  color: #6e6e6e;
+  text-align: end;
+}
+

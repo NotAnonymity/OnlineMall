@@ -1,0 +1,62 @@
+<view class='userinfo'> 
+  <open-data type="userAvatarUrl" class='userinfo-avatar'></open-data>
+  <open-data type="userNickName" class='userinfo-nickname'></open-data>
+</view>
+<progress class='progress' percent='{{(credit/1000)+20}}' stroke-width="12" backgroundColor='#343337' active='True' activeColor='rgb(223,177,60)'/>
+<view class='credit'>{{ name}} 同学 VIPID: {{ id}}</view>
+<view class='credit'>积分: {{credit}}  Level-{{level}}</view>
+<button class='policy' bindtap='policy'>查看阶梯折扣政策</button>
+<!--选择栏列表  -->
+
+<view class='lists'>
+  <!-- <view class='list' bindtap='changeinfo'>
+    <image src='/pages/img/changeinfo.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>修改信息</view> -->
+      <!-- <image class='icon' src='/pages/img/changeinfo.png '></image>
+    </view>
+  </view> -->
+
+  <view class='list' bindtap='changepwd'>
+    <image src='/pages/img/changepwd.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>修改密码</view>
+      <!-- <image class='icon' src='/pages/img/changepwd.png '></image> -->
+    </view>
+  </view>
+  
+</view>
+<!-- <view class='lists' style='margin-top:30rpx;'>
+</view> -->
+<!-- <view class='lists' style='margin-top:30rpx;'> -->
+  <view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='test'>
+    <image src='/pages/img/guide.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>购物指南</view>
+      <!-- <image class='icon' src='/pages/img/test.png '></image> -->
+    </view>
+  </view>
+<view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='getQQGroup'>
+  <image src='/pages/img/qq.png ' class='left_icon'></image>
+  <view class='right_list'>
+    <view class='name'>QQ群</view>
+    <!-- <image class='icon' src='/pages/img/qq.png '></image> -->
+  </view>
+</view>
+
+
+  <view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='advice'>
+    <image src='/pages/img/advice.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>吐槽</view>
+      <!-- <image class='icon' src='/pages/img/arrowRight.png '></image> -->
+    </view>
+  </view>
+  <view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='loss'>
+    <image src='/pages/img/clearStorage.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>挂失</view>
+      <!-- <image class='icon' src='/pages/img/arrowRight.png '></image> -->
+    </view>
+  <!-- </view> -->
+</view>

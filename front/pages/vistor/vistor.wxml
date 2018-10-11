@@ -1,0 +1,34 @@
+<view class='userinfo'>
+  <open-data type="userAvatarUrl" class='userinfo-avatar'></open-data>
+  <open-data type="userNickName" class='userinfo-nickname'></open-data>
+</view>
+<view class='credit'>尊敬的访客您好</view>
+<button class='policy' bindtap='signup'>免费领取VIP卡享折扣优惠</button>
+
+<!--选择栏列表  -->
+
+<view class='lists'>
+  <view class='list' bindtap='feedback'>
+    <image src='/pages/img/advice.png ' class='left_icon'></image>
+    <view class='right_list'>
+      <view class='name'>反馈建议</view>
+    </view>
+  </view>
+
+</view>
+
+<view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='getQQGroup'>
+  <image src='/pages/img/qq.png ' class='left_icon'></image>
+  <view class='right_list'>
+    <view class='name'>QQ群</view>
+
+  </view>
+</view>
+
+<view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='guide'>
+  <image src='/pages/img/guide.png ' class='left_icon'></image>
+  <view class='right_list'>
+    <view class='name'>购物引导</view>
+  </view>
+
+</view>

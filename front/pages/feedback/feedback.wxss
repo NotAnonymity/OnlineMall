@@ -1,0 +1,60 @@
+page{
+  background-color: #343337;
+  color:white;
+}
+
+.page{
+  /* background-color: #fafafa; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  height: 400rpx;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textarea{
+  height: 320rpx;
+  width: 710rpx;
+  padding: 20rpx;
+}
+
+.number_limit{
+  height: 40rpx;
+  width: 710rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fr{
+   color: #848484;
+   font-size: 30rpx;
+}
+
+.button{
+  margin-top: 30rpx;
+  height: 100rpx;
+  width: 80%;
+  background: rgb(223,177,60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300rpx;
+}
+
+.button_text{
+  font-size:120%;
+  color: black;
+}
+
+.btn_bind{
+  opacity: 0.4
+}

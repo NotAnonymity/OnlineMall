@@ -1,0 +1,13 @@
+<view class='page'>
+  <view class='content'>
+    <textarea class='textarea' placeholder="{{id==0?'感谢您反馈的BUG,我们会尽快修复':'感谢您提出的宝贵建议，我们会尽快完善'}}" bindinput='input' maxlength='{{maxlen}}'></textarea>
+    <view class='number_limit'>
+      <view class='fr'>{{len}}/140</view>
+    </view>
+  </view>
+
+  <view class='button' bindtap='submit' hover-class='btn_bind' hover-stay-time='100'>
+    <view class='button_text'>提交</view>
+  </view>
+
+</view>

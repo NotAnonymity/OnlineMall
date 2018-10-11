@@ -1,0 +1,25 @@
+<view class='input-list'>
+
+  <view class='student'>
+    <image class='a' src='../img/student.png'></image>
+    <input class='d' type='number'  placeholder='学号:' maxlength='13' auto-focus='true' bindinput='getId'></input>
+  </view>
+  <view class='name'>
+    <image class='b' src='../img/name.png'></image>
+    <input class='e' type='text' bindinput='getName' placeholder='姓名:' maxlength='10'></input>
+  </view>
+  <view class='phone'>
+    <image class='c' src='../img/phone.png'></image>
+    <input class='f' type='number' bindinput='getPhone' placeholder='电话:' maxlength='11'></input>
+  </view>
+  <view class='pwd'>
+    <image class='x' src='../img/pw.png'></image>
+    <input class='y' password='true' type='number' placeholder='四位支付密码:' bindinput='getPwdOne' maxlength='4'></input>
+  </view>
+  <view class='checkpwd'>
+    <image class='x2' src='../img/pw.png'></image>
+    <input class='y2' password='true' bind type='number' placeholder='确认支付密码:' bindinput='getPwdTwo' maxlength='4'></input>
+  </view>
+</view>
+
+<button bindtap='signup' class='confirm'>注册</button>

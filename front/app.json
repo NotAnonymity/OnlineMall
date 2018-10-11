@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/buy/buy",
+    "pages/new/new",
+    "pages/feedback/feedback",
+    "pages/changeinfo/changeinfo",
+    "pages/changepwd/changepwd",
+    "pages/policy/policy",
+    "pages/choice/choice",
+    "pages/signup/signup",
+    "pages/loss/loss",
+    "pages/vistor/vistor",
+    "pages/guide/guide"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#343337",
+    "backgroundColor": "#343337",
+    "navigationBarTitleText": "极市",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#19b076",
+    "backgroundColor": "#343337",
+    "color": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "充值",
+        "iconPath": "/pages/img/buy.png",
+        "selectedIconPath": "/pages/img/buy.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "/pages/img/me.png",
+        "selectedIconPath": "/pages/img/me.png"
+      }
+    ]
+  }
+}

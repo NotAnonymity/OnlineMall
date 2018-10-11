@@ -1,0 +1,7 @@
+<view class='page'>
+  <view class='text'>
+  尊敬的用户您好，申请挂失后请携带学生证到极市门店后方的工作室换取新卡片，工本费5元，再次感谢您的使用。
+  </view>
+</view>
+
+<button class='button' bindtap='guashi'>申报挂失</button>

@@ -1,0 +1,40 @@
+page{
+  background-color: #343337;
+  color:white;
+}
+.forget{
+  color:#1cddb1;
+  font-size:30rpx;
+  text-align: center;
+  margin-top:10rpx;
+}
+.text{
+  color: #DFB13C;
+}
+.check{
+  margin:50rpx;
+}
+.inputStudentNumber{
+  margin-top:100rpx;
+  /* margin:30rpx; */
+  font-size:50rpx;
+  height:60rpx;
+  text-align: center;
+  color:#1cddb1;
+}
+.inputPwd{
+  margin-top:100rpx;
+  /* margin:30rpx; */
+  font-size:50rpx;
+  height:60rpx;
+  text-align: center;
+  color:#1cddb1;
+}
+.button{
+  margin-left:100rpx;
+  margin-right:100rpx;
+  margin-top:250rpx;
+  margin-bottom: 30rpx;
+  background-color: rgb(223,177,60);
+  border-radius: 300rpx;
+}

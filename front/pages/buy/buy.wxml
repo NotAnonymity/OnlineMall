@@ -1,0 +1,11 @@
+<!--pages/buy/buy.wxml-->
+<!-- <text>pages/buy/buy.wxml</text> -->
+
+<view class='buy'>
+  <view class='balance-text'>当前余额</view>
+  <view class='balance'>￥{{balance}} </view>
+  <input class='input' bindinput='getPay' value='{{input}}' placeholder='输入充值金额' type='number' maxlength='5' ></input>
+</view>
+
+<button class='buy-button' bindtap='confrim'>确认充值</button>
+

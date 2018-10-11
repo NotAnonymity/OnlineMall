@@ -1,0 +1,8 @@
+<view class='text1'>极市门店目前支持👇</view>
+<image class='vip' src="../img/vip.png"></image>
+<image class='wxpay' src="../img/wxpay.png"></image>
+<image class='alipay' src="../img/alipay.png"></image>
+<view class='text2'>👉绿灯亮起时，您可以进入结算通道，在结算通道内，您购买的商品会自动显示在屏幕上，确认无误后，您只需将支付宝或者微信的付款码轻轻靠近扫码机（不要贴上喔）即可完成支付。如果您持有VIP卡，结算时输入四位支付密码即可。
+  <view>👉如果屏幕上显示的商品与您实际购买的不符，请尝试点击刷新按钮。仍有问题，请联系tel：18011108705 或者在小程序的吐槽页面写下您的问题，我们将尽快解决。</view>
+
+</view>

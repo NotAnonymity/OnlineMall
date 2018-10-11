@@ -1,0 +1,113 @@
+/**index.wxss**/
+page{
+    background-color: #343337;
+    color:white;
+  }
+  .policy{
+    background-color: rgb(223,177,60);
+    margin:50rpx;
+    border-radius: 30px;
+    margin-left:100rpx;
+    margin-right: 100rpx;
+  }
+  .page {
+    display: flex;
+    /* background-color: #fafafa; */
+    /* height: 100vh; */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userinfo {
+     margin: 100rpx; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userinfo-avatar {
+    width: 168rpx;
+    height: 168rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid;
+  }
+  
+  .userinfo-nickname {
+    /* color: #aaa; */
+    font-size: 110%;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+  
+  .usermessage {
+    margin-top: 0px;
+  }
+  
+  .button-style {
+    /* background-color: #eee; */
+    border-radius: 8rpx;
+    
+  }
+  
+  .lists {
+    width: 100vw;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    height: 100rpx;
+    width: 100%;
+    /* background-color: #fff; */
+    
+     /* padding-left: 10rpx;  */
+    justify-content: space-between;
+  }
+  .progress{
+    margin-left:50rpx;
+    margin-right:50rpx;
+    background-color:#19b076;
+  }
+  .credit{
+    color: #DFB13C;
+    margin-top:30rpx;
+    margin-left:50rpx;
+  }
+  .right_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    height: 100%;
+    border-bottom: #19b076 2rpx solid;
+    
+  }
+  
+  .name {
+    font-size: 110%;
+    /* margin-left: 20rpx; */
+     width: 170rpx; 
+  }
+  
+  .icon {
+    margin-right: 10rpx;
+    width: 50rpx;
+    height: 50rpx;
+  }
+  
+  .left_icon{
+    margin: 0 0 0 20rpx;
+    width: 60rpx;
+    height: 60rpx;
+  
+  }
+   
+  
+  
+  
+  
+  

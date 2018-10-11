@@ -1,0 +1,10 @@
+<view wx:for='{{usageList}}' style='margin-top:30rpx' class='list' >
+  <view class='label'>
+    <text class='label_text'>优惠</text>
+  </view>
+  <view class='content'>
+    <view class='title'>{{item.title}}</view>
+    <text class='abstract' decode='{{true}}' space='emsp'>&emsp;&emsp;{{item.content}}</text>
+    <!-- <view class='time'>{{item.publishTime}}</view> -->
+  </view>
+</view>

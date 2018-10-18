@@ -1,0 +1,8 @@
+
+
+
+<image class='qrcode' src="{{imgdata}}"></image>
+
+<view class='title'>VIP电子会员卡付款码</view>
+<view class='content'>将二维码对准扫码器即可享受折扣支付</view>
+

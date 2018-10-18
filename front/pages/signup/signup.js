@@ -9,13 +9,9 @@ Page({
     id: 0,
     name: 0,
     phone: 0,
-    pwd1: 0,
-    pwd2: 1,
-    openId: null,
-    // city:null,
-    // gender:null,
-    // province:null,
-    // nickName:null
+    pwd1: "0000",
+    pwd2: "0000",
+    openId: null
 
   },
 
@@ -119,18 +115,22 @@ Page({
       wx.showToast({
         icon: 'none',
         title: '密码输入有误',
-        // icon:"success",
-        // duration：1000
       })
-    } else if (that.data.id.length < 13) {
+    } else if (that.data.id.length < 13 && that.data.id.length != 8) {
       wx.showToast({
         icon: 'none',
-        title: '学号有误'
+        title: '学工号有误'
       })
     } else if (that.data.phone.length < 11) {
       wx.showToast({
         icon: 'none',
         title: '手机号码有误',
+      })
+    } 
+    else if (that.data.name.length < 1) {
+      wx.showToast({
+        icon: 'none',
+        title: '姓名有误',
       })
     } else {
       wx.showModal({
@@ -141,12 +141,6 @@ Page({
         confirmText: '确认无误',
         success: function(res) {
           if (res.cancel == false) {
-            // that.setData({
-            //   city:wx.getStorageSync('city'),
-            //   gender:wx.getStorageSync('gender'),
-            //   province:wx.getStorageSync('province'),
-            //   nickName:wx.getStorageSync('nickName')
-            // })
             wx.showLoading();
             wx.request({
               url: app.globalData.url +'/vip/register',
@@ -157,17 +151,14 @@ Page({
                 name: that.data.name,
                 password: that.data.pwd2,
                 phoneNumber: that.data.phone,
-                // nickName:that.data.nickName,
-                // city:that.data.city,
-                // province:that.data.province,
-                // gender:that.data.gender
               },
               success: function(res) {
                 if (res.data.status == 'success') {
                   wx.hideLoading();
                   wx.showModal({
+
                     title: '注册成功',
-                    content: '请您于一个工作日后，到极市门店后的工作室领取您的卡片，地址：牛肉馆对面',
+                    content: '您可以在首页点击打开VIP付款码使用自动生成的虚拟电子卡片扫码优惠支付  如有问题请联系：18011108705或18512853321',
                     showCancel: false,
                     confirmText: 'OK', 
                     success:function(){
@@ -193,12 +184,20 @@ Page({
                     
                 } else {
                   wx.hideLoading();
+                  
+                
                   wx.showToast({
                     icon: 'none',
                     title: res.data.errMsg,
                   })
+                  setTimeout(function () {
+                    if (res.data.errMsg == '注册会员失败，会员卡片不足，请联系管理员增加卡片') {
+                      wx.redirectTo({
+                        url: '../vistor/vistor',
+                      })
+                    }
+                  }, 2000)
                 }
-
               },
               fail: function() {
                 wx.hideLoading();
@@ -208,10 +207,11 @@ Page({
                 })
               }
             })
-          } else {}
+          } else {
+
+          }
         }
       })
-
     }
   }
 })

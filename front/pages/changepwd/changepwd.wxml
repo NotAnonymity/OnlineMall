@@ -4,9 +4,9 @@
 
     <input class='inputStudentNumber' bindinput='getId' placeholder='学号'type='number' maxlength='13' auto-focus='false'></input>
 
-    <input class='inputPwd' type='number' bindinput='getOldPwd' placeholder='原支付密码'password='true' maxlength='4'></input>
+    <input class='inputPwd' type='number' bindinput='getOldPwd' placeholder='原支付密码' password='true' maxlength='4'></input>
 
-    <input class='inputPwd' type='number'bindinput='getNewPwd' placeholder='新支付密码'password='true' maxlength='4'></input>
+    <input class='inputPwd' type='number'bindinput='getNewPwd' placeholder='新支付密码' password='true' maxlength='4'></input>
   </view>
   <button class='button' bindtap='setpwd'>验证并修改</button>
   <view class='forget' bindtap='forget'>忘记密码？</view>

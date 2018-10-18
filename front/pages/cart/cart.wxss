@@ -1,0 +1,25 @@
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+
+.button{
+  margin-top:10rpx;
+  height: 100rpx;
+  width: 50%;
+  background: rgb(223,177,60);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  border-radius: 300rpx;
+}
+.title{
+  font-size:50rpx;
+  letter-spacing: 2rpx;
+  margin:30rpx;
+  margin-top:200rpx;
+}
+
+.content{
+  margin:30rpx;
+}

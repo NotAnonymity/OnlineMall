@@ -3,6 +3,11 @@
 const app = getApp()
 
 Page({
+  policy: function () {
+    wx.navigateTo({
+      url: '../policy/policy',
+    })
+  },
   signup:function(){
     wx.navigateTo({
       url: '../signup/signup',
@@ -12,7 +17,8 @@ Page({
     // motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    userAvatarUrl: wx.canIUse('open-data.type.userAvatarUrl'),
+    userNickName: wx.canIUse('open-data.type.userNickName'),
   },
   //事件处理函数
   bindViewTap: function() {
@@ -78,4 +84,9 @@ Page({
       url: '../feedback/feedback?id=1',
     })
   },
+  developer: function (e) {
+    wx.navigateTo({
+      url: '../developer/developer',
+    })
+  }
 })

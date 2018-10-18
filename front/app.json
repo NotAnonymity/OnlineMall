@@ -1,31 +1,51 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/qrcode/qrcode",
     "pages/buy/buy",
+    
+    "pages/signup/signup",
+    "pages/index/index",
+    "pages/vistor/vistor",
+    "pages/developer/developer",
+   
     "pages/new/new",
     "pages/feedback/feedback",
     "pages/changeinfo/changeinfo",
     "pages/changepwd/changepwd",
     "pages/policy/policy",
     "pages/choice/choice",
-    "pages/signup/signup",
     "pages/loss/loss",
-    "pages/vistor/vistor",
-    "pages/guide/guide"
-
+    "pages/guide/guide",
+    "pages/order/order",
+    "pages/cart/cart",
+    "pages/detail/detail",
+    "pages/myorder/myorder"
   ],
   "window": {
     "backgroundTextStyle": "black",
     "navigationBarBackgroundColor": "#343337",
     "backgroundColor": "#343337",
     "navigationBarTitleText": "极市",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "selectedColor": "#19b076",
     "backgroundColor": "#343337",
     "color": "#ffffff",
     "list": [
+      {
+        "pagePath": "pages/order/order",
+        "text": "订购",
+        "iconPath": "/pages/img/order.png",
+        "selectedIconPath": "/pages/img/order.png"
+      },
+      {
+        "pagePath": "pages/qrcode/qrcode",
+        "text": "钱包",
+        "iconPath": "/pages/img/wallet.png",
+        "selectedIconPath": "/pages/img/wallet.png"
+      },
       {
         "pagePath": "pages/buy/buy",
         "text": "充值",

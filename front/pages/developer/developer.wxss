@@ -1,0 +1,36 @@
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+
+.t1{
+  margin:40rpx;
+  margin-top:180rpx;
+  font-size: 40rpx;
+  letter-spacing: 5rpx;
+  
+  
+}
+.t2{
+  margin:30rpx;
+  font-size:40rpx;
+  letter-spacing: 5rpx;
+  color:#1cddb1;
+}
+.t3{
+  margin:30rpx;
+  font-size:40rpx;
+  letter-spacing: 5rpx;
+  color:#1cddb1;
+}
+.t8{
+  margin:30rpx;
+  font-size:40rpx;
+  letter-spacing: 5rpx;
+  color:#1cddb1;
+}
+
+.t4,.t5,.t6,.t7,.t9,.t10{
+  margin:30rpx;
+  letter-spacing: 1rpx;
+}

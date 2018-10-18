@@ -1,0 +1,14 @@
+<view class='search'>
+  <icon type='search' style='margin-right:10rpx;margin-left:5rpx'></icon>
+  <view class='search_input'>
+    <input bindinput='searchInput' placeholder='搜索' confirm-type='search' bindconfirm='confirmSearch'></input>
+  </view>
+</view>
+
+<view class= 'title'>等待，是为了更好的相遇 </view>
+<view class='content'> 功能开发中，敬请期待...</view>
+<!-- <view wx:for='{{goodsList}}' class='list' bindtap='toWeb' id='{{index}}' data-content='{{item}}' hover-class='hover_class' wx:if='{{id==0}}'>
+  <view class='label'>
+    <view class='label_text'>辟谣</view>
+  </view>
+</view> -->

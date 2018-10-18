@@ -6,19 +6,18 @@ Page({
       pay: e.detail.value
     })
   },
-  /**
-   * 页面的初始数据
-   */
   data: {
     input:'',
     balance: 0.00,
-    pay: null,
+    pay: '空',
     timeStamp: '',
     nonceStr: '',
     dataPackage: '',
     signType: 'MD5',
     paySign: '',
-    openId: null
+    openId: null,
+    userAvatarUrl: wx.canIUse('open-data.type.userAvatarUrl'),
+    userNickName: wx.canIUse('open-data.type.userNickName')
   },
 
   /**
@@ -30,7 +29,7 @@ Page({
       key: 'openId',
       success: function(res) {
         that.setData({
-          openId: res.data
+          openId : res.data
         })
         // wx.request({
         //   url: 'https://api.fyscu.xyz/vip/getInfo',
@@ -66,7 +65,7 @@ Page({
       key: 'openId',
       success: function (res) {
         that.setData({
-          openId: res.data
+          openId : res.data
         })
         wx.request({
           url: app.globalData.url +'/vip/getInfo',
@@ -121,6 +120,34 @@ Page({
   onShareAppMessage: function() {
 
   },
+  pay10:function(){
+    var that = this
+    that.setData({
+      pay:10
+    })
+  }
+  ,
+  pay30: function () {
+    var that = this
+    that.setData({
+      pay: 30
+    })
+  }
+  ,
+  pay50: function () {
+    var that = this
+    that.setData({
+      pay: 50
+    })
+  }
+  ,
+  pay100: function () {
+    var that = this
+    that.setData({
+      pay: 100
+    })
+  }
+  ,
   confrim: function() {
     var that = this
     wx.request({
@@ -165,6 +192,7 @@ Page({
                       that.setData({
                         balance: res.data.balance
                       })
+                      // this.data.balance = res.data.balance
 
                     },
                   })

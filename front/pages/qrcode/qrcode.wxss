@@ -1,0 +1,32 @@
+
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+.title{
+  margin:100rpx;
+  letter-spacing: 5rpx;
+  font-size: 50rpx;
+  text-align: center
+}
+.content{
+  margin-bottom:50rpx;
+  letter-spacing: 5rpx;
+  text-align: center
+}
+
+.balance{
+
+}
+
+
+.qrcode{
+  margin:15%;
+  margin-top:20%;
+  border: 5px solid  #DFB13C;
+  border-radius: 7%;
+  overflow: hidden;
+  /* height:500rpx; */
+  width:500rpx;
+
+}

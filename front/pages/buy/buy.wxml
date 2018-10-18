@@ -4,8 +4,20 @@
 <view class='buy'>
   <view class='balance-text'>当前余额</view>
   <view class='balance'>￥{{balance}} </view>
-  <input class='input' bindinput='getPay' value='{{input}}' placeholder='输入充值金额' type='number' maxlength='5' ></input>
+
+</view>
+<view class='payChoice1'>
+<button class = 'pay100' bindtap='pay100'>100送5</button>
+<button class = 'pay50' bindtap='pay50'>50送2</button>
+</view>
+<view class='payChoice2'>
+<button class = 'pay30' bindtap='pay30'>30送1</button>
+<button class = 'pay10' bindtap='pay10'>10</button>
 </view>
 
+  <input class='input' bindinput='getPay' value='{{input}}'  placeholder='或输入自定义金额' type='number' maxlength='5' ></input>
+<view class='result'>选择充值金额为{{pay}}</view>
+
 <button class='buy-button' bindtap='confrim'>确认充值</button>
+
 

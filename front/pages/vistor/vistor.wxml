@@ -4,6 +4,7 @@
 </view>
 <view class='credit'>尊敬的访客您好</view>
 <button class='policy' bindtap='signup'>免费领取VIP卡享折扣优惠</button>
+<button class='policy' bindtap='policy'>查看最新消息</button>
 
 <!--选择栏列表  -->
 
@@ -30,5 +31,12 @@
   <view class='right_list'>
     <view class='name'>购物引导</view>
   </view>
+</view>
 
+<view class='list' hover-class='hover_class' hover-stay-time='100' bindtap='developer'>
+  <image src='/pages/img/qq.png ' class='left_icon'></image>
+  <view class='right_list'>
+    <view class='name'>开发者</view>
+    <!-- <image class='icon' src='/pages/img/qq.png '></image> -->
+  </view>
 </view>

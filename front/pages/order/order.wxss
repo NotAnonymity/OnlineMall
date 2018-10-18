@@ -1,0 +1,29 @@
+page{
+  background-color: #343337;
+  color:#DFB13C;
+}
+.search {
+  /* width: 700rpx; */
+  display: flex;
+  /* flex-direction: row; */
+  border-radius: 5rpx;
+  margin-top: 20rpx; 
+  align-items: center;
+  padding: 10rpx;
+}
+
+.search_input {
+  width: 630rpx;
+  /* padding: 5rpx; */
+}
+.title{
+  font-size:50rpx;
+  letter-spacing: 2rpx;
+  margin:30rpx;
+  margin-top:200rpx;
+}
+
+.content{
+  margin:30rpx;
+}
+

@@ -46,4 +46,14 @@
 - 描述：用户点击结算，前端发起结算请求，根据后端返回情况进行支付状况判断
 - URL:/mall/payCart
 - 前端请求参数：{userId}
+<<<<<<< HEAD
 - 后端返回参数：{status, msg, data}
+
+八、返回历史订单
+- 描述：用户点击浏览历史订单，前端发送历史订单信息请求。
+- URL:/mall/getHistoryOrder
+- 前端请求参数：{userId}
+- 后端返回参数：{status, msg, data:{[{id,date,fee,status,goodsInfo:[{goodsName,goodsAmount,goodsPrice,goodsImage_url},{...}],{...}]}}
+=======
+- 后端返回参数：{status, msg, data}
+>>>>>>> 2c8c8e7c959cbbf1613d3d4b8b6ff41f00bdfa02

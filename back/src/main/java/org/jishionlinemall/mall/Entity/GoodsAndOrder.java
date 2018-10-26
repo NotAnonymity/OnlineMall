@@ -9,12 +9,14 @@ import javax.persistence.*;
 public class GoodsAndOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id",nullable = false)
+    @Column(name = "id",nullable = true)
     private Long id;
     @Column(name = "gid", nullable = false)
     private Long gid;//商品id
-    @Column(name = "oid", nullable = false)
-    private Long oid;//订单id
+    @Column(name = "gAmount", nullable = false)
+    private Integer gAmount;//购买商品数量
+    @Column(name = "sn", nullable = false)
+    private String sn;//订单id
 
     public Long getId() {
         return id;
@@ -32,11 +34,21 @@ public class GoodsAndOrder {
         this.gid = gid;
     }
 
-    public Long getOid() {
-        return oid;
+
+
+    public Integer getgAmount() {
+        return gAmount;
     }
 
-    public void setOid(Long oid) {
-        this.oid = oid;
+    public void setgAmount(Integer gAmount) {
+        this.gAmount = gAmount;
+    }
+
+    public String getSn() {
+        return sn;
+    }
+
+    public void setSn(String sn) {
+        this.sn = sn;
     }
 }
